@@ -4,6 +4,12 @@
 ## setup
 
 ```js
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n 4.4.5
+sudo npm install npm -g
+
+
 git clone https://github.com/nasa8x/node-genesis-block.git genesis-block
 cd genesis-block
 npm install
