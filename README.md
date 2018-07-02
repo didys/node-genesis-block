@@ -4,13 +4,11 @@
 ## setup
 
 ```js
-sudo npm cache clean -f
-sudo npm install -g n
-sudo n 4.4.5
-sudo npm install npm -g
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 
-git clone https://github.com/nasa8x/node-genesis-block.git genesis-block
+git clone https://github.com/didys/node-genesis-block.git genesis-block
 cd genesis-block
 npm install
 ```
