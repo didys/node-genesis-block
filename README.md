@@ -4,7 +4,8 @@
 ## setup
 
 ```js
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+export LC_ALL=C
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 
